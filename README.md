@@ -1,4 +1,3 @@
-
 mysql> use project1;
 Database changed
 mysql> create table publisher(Publisher_Name varchar(50) primary key,Publisher_address varchar(50) not null,Publisher_contact int);
