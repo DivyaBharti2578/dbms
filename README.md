@@ -381,7 +381,7 @@ mysql> insert into copies value(109,34,45678,11);
 Query OK, 1 row affected (0.01 sec)
 
 mysql> insert into copies value(114,99,45678,10);
-ERROR 1062 (23000): Duplicate entry '114' for key 'copies.PRIMARY'
+
 mysql> insert into copies value(113,99,45678,10);
 Query OK, 1 row affected (0.04 sec)
 
@@ -446,7 +446,7 @@ mysql> select * from copies;
 
 mysql> insert into author value(45,'Jk Rowling',7);
 Query OK, 1 row affected (0.01 sec)
-ERROR 1062 (23000): Duplicate entry '45' for key 'author.PRIMARY'
+
 mysql> insert into author value(44,'Jk Rowling',12);
 Query OK, 1 row affected (0.01 sec)
 
